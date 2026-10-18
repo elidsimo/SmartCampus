@@ -25,4 +25,10 @@ pipeline {
             }
         }
     }
+
+    post {
+        success {
+            archiveArtifacts artifacts: 'backend/dist/**', fingerprint: true
+        }
+    }
 }
