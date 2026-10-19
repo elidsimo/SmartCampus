@@ -37,7 +37,7 @@ Puis ajuster `DATABASE_URL` selon votre environnement PostgreSQL.
 ## 3) Démarrer PostgreSQL
 
 ```bash
-docker compose up -d
+docker compose up -d postgres
 ```
 
 ## 4) Démarrer le backend
